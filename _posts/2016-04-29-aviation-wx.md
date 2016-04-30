@@ -2,6 +2,7 @@
 layout: post
 title: Aviation WX
 ---
+
 After throwing together my command line tool to fetch METARs and TAFs, I thought it might be nice to make it somewhat RESTful. Using some of the same codebase along with Flask, I was able to do that. Getting started is pretty simple. Most of the requirements are Python modules that every system has. The only exception is Flask, and you can get that with a simple `pip install flask`. 
 
 To get started, check out the repo: `git clone https://github.com/kevin-bowers/avwx.git`
